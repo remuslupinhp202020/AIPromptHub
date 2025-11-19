@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Prompt Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Prompt Hub</h1>
+        <a href="YOUR_GOOGLE_FORM_URL_HERE" class="add-link-button" target="_blank" rel="noopener noreferrer">
+            Add a New Prompt
+        </a>
+        <hr>
+
+        <div class="table-container">
+            <table class="prompts-table">
+                <thead>
+                    <tr>
+                        <!-- Updated Headers for Prompts -->
+                        <th data-column="promptTitle">Prompt Title</th>
+                        <th data-column="aiModel">AI Model</th>
+                        <th data-column="category">Category/Tag</th>
+                        <th data-column="thePrompt">The Prompt</th>
+                    </tr>
+                </thead>
+                <tbody id="prompts-tbody">
+                    <!-- Prompts will be inserted here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+        
+        <footer>
+            <a href="YOUR_GOOGLE_DOC_URL_HERE" class="footer-link" target="_blank">View Project Prompt Template</a>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
