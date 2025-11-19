@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // --- PASTE YOUR PUBLISHED GOOGLE SHEET CSV URL HERE ---
     const googleSheetURL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR_h2WFYYulfZrGrg7Jc3mCeQr-nNFE6LIdptxV1FxGa3u7E7X4BjazB8flYsOxJEMyVssWb7gOoqh5/pub?output=csv';
+    
     // ----------------------------------------------------
 
     const tableBody = document.getElementById('prompts-tbody');
