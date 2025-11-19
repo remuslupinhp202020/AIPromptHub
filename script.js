@@ -79,24 +79,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     loadPromptsFromSheet();
-});```
-
----
-
-### **Step 3: Deploy Your Application**
-
-1.  **Replace the Placeholders:**
-    *   In `index.html`, replace `YOUR_GOOGLE_FORM_URL_HERE` and `YOUR_GOOGLE_DOC_URL_HERE`.
-    *   In `script.js`, replace `YOUR_GOOGLE_SHEET_CSV_URL_HERE`.
-
-2.  **Upload to GitHub:**
-    *   Create a new repository on GitHub (e.g., "ai-prompt-hub").
-    *   Upload your three finished files (`index.html`, `style.css`, `script.js`) to this repository.
-
-3.  **Deploy on Netlify:**
-    *   Log in to your Netlify account.
-    *   Click "Add new site" > "Import an existing project".
-    *   Connect to GitHub and select your "ai-prompt-hub" repository.
-    *   Click "Deploy site".
-
-Your AI Prompt Hub is now live and ready to use
+});
